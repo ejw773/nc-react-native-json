@@ -1,0 +1,23 @@
+{
+  "name": "nc-react-native-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server -H 0.0.0.0 --watch db.json -p 3001 -d 1000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejw773/nc-react-native-json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejw773/nc-react-native-json/issues"
+  },
+  "homepage": "https://github.com/ejw773/nc-react-native-json#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
